@@ -9,5 +9,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="groovy-all-2.3.11-indy" level="project" />
     <orderEntry type="library" name="gpars-1.2.1" level="project" />
+    <orderEntry type="library" name="gpars-1.2.11" level="project" />
+    <orderEntry type="library" name="groovy-all-2.3.11-indy1" level="project" />
   </component>
 </module>

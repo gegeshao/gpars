@@ -15,17 +15,21 @@ class test3 {
          def  Closure[] defs = [{sleep 1000 ;"" },{sleep 1000 ;"2"},{sleep 1000 ;""}];
 
             final DataflowVariable variable = new DataflowVariable()
+             final DataflowVariable variable2 = new DataflowVariable()
             final DataflowVariable result = new DataflowVariable()
             final LazyDataflowVariable variable1 = new LazyDataflowVariable({sleep 1000 ;"this is variable1" })
             def ChainedDataflowVariablenew cdata= new ChainedDataflowVariablenew(defs)
 
-            /*variable.whenBound {-> result << 1}
-            variable << 4*/
+            variable.whenBound {sleep 4000 ;println "3" }
+            variable << 4
             //assert 1 == result.val
 
-       /* variable.whenBound(Dataflow.DATA_FLOW_GROUP) {-> result << 1}
-        variable << 4*/
+           variable2.whenBound(Dataflow.DATA_FLOW_GROUP) {-> result << 1}
+           variable2 << 4
+           println("$result")
+
             Promise p =cdata
+            Promise p2 =variable1
             /*long t =System.currentTimeMillis()
             System.out.println("start time is"+t)
             System.out.println("result = "+cdata.val)
@@ -34,7 +38,10 @@ class test3 {
              def succeed={String prop->println"succeed,the value is $prop"}
              def failed ={String prop->println"failed,the value is$prop"}
 
+
              p.then(succeed,failed)
+             p2.then(succeed,failed)
+             //p2.then(succeed,failed)
              while(1){}
 
              //succeed.call()
