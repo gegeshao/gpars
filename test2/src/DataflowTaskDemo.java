@@ -23,30 +23,32 @@ public class DataflowTaskDemo {
          final DefaultPGroup group = new DefaultPGroup(10);
          final DataflowVariable dataflow = new DataflowVariable();
 
-      /*   group.task(new Runnable() {
-             @Override
-             public void run() {
-                 dataflow.bind(33);
-             }
-         });*/
          group.getThreadPool().execute(new Runnable() {
              @Override
              public void run() {
-                 dataflow.bind(33);
+                 dataflow.bind("33");
              }
          });
          final Promise result = group.task(new Callable() {
              public Object call() throws Exception{
-                 return (Integer)dataflow.getVal()+2;
+                 return (String)dataflow.getVal()+"2";
              }
          });
 
-         result.whenBound(new MessagingRunnable<Integer>() {
+    /*     result.whenBound(new MessagingRunnable<Integer>() {
              @Override
              protected void doRun(final Integer integer) {
                  System.out.println("arguments = "+integer);
              }
 
+         });*/
+
+         result.whenBound(new MessagingRunnable<String>() {
+             @Override
+             protected void doRun(final String s) {
+                 System.out.print("s is "+s);
+
+             }
          });
 
          System.out.println("result = "+result.toString());

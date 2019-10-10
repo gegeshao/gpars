@@ -32,6 +32,13 @@ public class TEST {
        MethodClosure crwap = new MethodClosure(d,"handle");
        Closure c =crwap.curry(3);
        c.call(2);
+     /*  Closure cc={callback call-> d.test(1,call)};
+       cc.call(new callback() {
+           @Override
+           public void handle(int c) {
+               System.out.print("i ="+c);
+           }
+       });*/
 
 
      /*   MethodClosure initMc = new MethodClosure(callable, "call");

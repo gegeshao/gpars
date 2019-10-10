@@ -33,7 +33,7 @@ class test3 {
        a.whenBound{println "Just to confirm that the variable has been really set to $it"}*/
 
 
-       variable2.whenBound(Dataflow.DATA_FLOW_GROUP) {-> result << 1}
+           variable2.whenBound(Dataflow.DATA_FLOW_GROUP) {-> result << 1}
            variable2 << 4
            println("$result")
 

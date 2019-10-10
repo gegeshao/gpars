@@ -15,11 +15,13 @@ import org.codehaus.groovy.runtime.MethodClosure;
 public class DDD {
 
 
-    public void test(){
+    public void test(int i,callback call){
 
-        MethodClosure cwrap =new MethodClosure(DDD.this,"handle");
+       /* MethodClosure cwrap =new MethodClosure(DDD.this,"handle");
         Closure cc = cwrap.curry(3);
-        cc.call();
+        cc.call();*/
+
+        call.handle(2);
     }
     DDD(){}
     public void handle(int i,int j){
