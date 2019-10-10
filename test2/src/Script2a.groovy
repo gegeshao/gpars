@@ -51,7 +51,14 @@ class person{
         return a+1
     }
 }
+
+class test{
+    def Input = {String s->println"Input value is $s"}
+}
+def Input = {String s->println"invoke in script1a ,the value is $s"}
+
 def person =new person()
+def test = new test()
   //person.ddcd = "dd"
 Binding propertyBinding = new Binding()
 propertyBinding.property = {
@@ -59,6 +66,18 @@ propertyBinding.property = {
         //def person =new person()
         c.delegate=person
         c.call()
+        //  System.out.println()
+}
+propertyBinding.protocol = {
+    id,Closure c ->
+        //def person =new person()
+
+        if(id =="Input")
+          c={Input("cc")}
+        c.delegate=test
+        //c.setResolveStrategy(Closure.DELEGATE_FIRST)
+        println"c owner is"+c.owner
+         c.call()
         //  System.out.println()
 }
 shell = new GroovyShell(propertyBinding)

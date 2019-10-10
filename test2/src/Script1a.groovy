@@ -21,6 +21,14 @@ property("show disks"){
     println "use command show disks"
 }
 
+protocol("Input"){
+
+}
+protocol("Snmp"){
+    println"this is snmp protocol"
+}
+/*def Input = {String s->println"invoke in script1a ,the value is $s"}*/
+
 //newperporty
 /*properset(){
     println "sssss"

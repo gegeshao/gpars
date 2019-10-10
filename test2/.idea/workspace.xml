@@ -19,20 +19,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DataflowTaskDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataflowTaskDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1294#1475#0" expanded="true" />
-                <element signature="e#1474#1475#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TEST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TEST.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -43,14 +29,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Script10a.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Script10a.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Script10a.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="414">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Script3a.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Script3a.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Script5a.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Script5a.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,31 +73,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cwrap.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cwrap.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-              <folding>
-                <element signature="e#50#88#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataflowExpression.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Downloads/gpars-1.2.1.jar!/groovyx/gpars/dataflow/expression/DataflowExpression.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="345" column="38" lean-forward="false" selection-start-line="345" selection-start-column="38" selection-end-line="345" selection-end-column="38" />
-              <folding>
-                <element signature="e#12943#12944#0" expanded="true" />
-                <element signature="e#12984#12985#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DDD.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DDD.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,27 +83,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="handle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/handle.java">
+      <file leaf-file-name="Script1a.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Script1a.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            <state relative-caret-position="356">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChainedDataflowVariablenew.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ChainedDataflowVariablenew.java">
+      <file leaf-file-name="Script2a.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Script2a.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="153" column="30" lean-forward="true" selection-start-line="153" selection-start-column="30" selection-end-line="153" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#11440#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#2375#2376#0" expanded="true" />
-                <element signature="e#2424#2425#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="394">
+              <caret line="77" column="54" lean-forward="true" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Closure.class" pinned="false" current-in-tab="true">
+        <entry file="jar://$PROJECT_DIR$/../groovy-all-2.3.11-indy.jar!/groovy/lang/Closure.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -165,8 +151,6 @@
         <option value="$PROJECT_DIR$/src/Script5a.groovy" />
         <option value="$PROJECT_DIR$/src/Script6a.groovy" />
         <option value="$PROJECT_DIR$/src/person.groovy" />
-        <option value="$PROJECT_DIR$/src/Script1a.groovy" />
-        <option value="$PROJECT_DIR$/src/Script2a.groovy" />
         <option value="$PROJECT_DIR$/src/Script8a.groovy" />
         <option value="$PROJECT_DIR$/src/MethodClosure.java" />
         <option value="$PROJECT_DIR$/src/Script7a.groovy" />
@@ -182,6 +166,8 @@
         <option value="$PROJECT_DIR$/src/DDD.java" />
         <option value="$PROJECT_DIR$/src/TEST.java" />
         <option value="$PROJECT_DIR$/src/Script10a.groovy" />
+        <option value="$PROJECT_DIR$/src/Script1a.groovy" />
+        <option value="$PROJECT_DIR$/src/Script2a.groovy" />
       </list>
     </option>
   </component>
@@ -276,7 +262,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Script4a.groovy" />
+              <option name="myItemId" value="Script2a.groovy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -313,22 +299,7 @@
     <property name="configurable.Module.libraries.is.expanded" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gpars/GPars/build.gradle" />
   </component>
-  <component name="RunManager" selected="Groovy.Script10a">
-    <configuration default="false" name="test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="test3" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="test2" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Groovy.Script2a">
     <configuration default="false" name="TEST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TEST" />
@@ -371,6 +342,15 @@
     <configuration default="false" name="Script10a" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="test2" />
       <setting name="path" value="file://$PROJECT_DIR$/src/Script10a.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Script2a" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="test2" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/Script2a.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$/src" />
@@ -790,19 +770,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.test3" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TEST" />
-      <item index="2" class="java.lang.String" itemvalue="Groovy.Script9a" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DataflowTaskDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Groovy.Script10a" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TEST" />
+      <item index="1" class="java.lang.String" itemvalue="Groovy.Script9a" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DataflowTaskDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Groovy.Script10a" />
+      <item index="4" class="java.lang.String" itemvalue="Groovy.Script2a" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Groovy.Script10a" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TEST" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DataflowTaskDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Groovy.Script9a" />
-        <item index="4" class="java.lang.String" itemvalue="Application.test3" />
+        <item index="0" class="java.lang.String" itemvalue="Groovy.Script2a" />
+        <item index="1" class="java.lang.String" itemvalue="Groovy.Script10a" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TEST" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DataflowTaskDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Groovy.Script9a" />
       </list>
     </recent_temporary>
   </component>
@@ -840,7 +820,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23059867" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25815368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1019,6 +999,24 @@
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Script10a.groovy</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Script10a.groovy</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Script10a.groovy</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$USER_HOME$/Downloads/gpars-1.2.1.jar!/groovyx/gpars/dataflow/DataflowWriteChannel.class</url>
           <line>10</line>
@@ -1026,7 +1024,10 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="40" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="43" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1035,14 +1036,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Downloads/gpars-1.2.1.jar!/groovyx/gpars/dataflow/Promise.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/gpars-1.2.1.jar!/groovyx/gpars/dataflow/expression/DataflowExpression.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3565">
@@ -1131,26 +1124,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/person.groovy" />
-    <entry file="file://$PROJECT_DIR$/src/Script5a.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Script3a.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Script6a.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -1184,16 +1157,6 @@
         <state relative-caret-position="276">
           <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Script2a.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-259">
-          <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1305,14 +1268,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Script1a.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Script8a.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1342,7 +1297,7 @@
         <state relative-caret-position="253">
           <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#0#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1461,13 +1416,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Script5a.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Script3a.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Script10a.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="414">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Script1a.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Script2a.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="77" column="54" lean-forward="true" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../groovy-all-2.3.11-indy.jar!/groovy/lang/Closure.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
