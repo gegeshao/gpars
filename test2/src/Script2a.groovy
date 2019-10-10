@@ -64,6 +64,7 @@ Binding propertyBinding = new Binding()
 propertyBinding.property = {
     id,Closure c ->
         //def person =new person()
+        propertyBinding.ccc=id
         c.delegate=person
         c.call()
         //  System.out.println()
@@ -74,6 +75,8 @@ propertyBinding.protocol = {
 
         if(id =="Input")
           c={Input("cc")}
+        if(propertyBinding.ccc=="show disks")
+            c={println"this is ccc"}
         c.delegate=test
         //c.setResolveStrategy(Closure.DELEGATE_FIRST)
         println"c owner is"+c.owner
