@@ -6,10 +6,12 @@ println "In Script1a"
 
 property("show volumes"){
     "ccctttt"
-    ""
+     sleep 10000
     println "use command show volume1"
     println "use command show volume2"
-    cccace
+    licehngdong
+    niushihao
+
     def t =cc()
     def tt=ccc(t)
     //newperporty()
@@ -19,14 +21,16 @@ property("show volumes"){
 
 property("show disks"){
     println "use command show disks"
+    ""
+    ""
 }
 
-protocol("Input"){
+/*protocol("Input"){
 
 }
 protocol("Snmp"){
     println"this is snmp protocol"
-}
+}*/
 /*def Input = {String s->println"invoke in script1a ,the value is $s"}*/
 
 //newperporty

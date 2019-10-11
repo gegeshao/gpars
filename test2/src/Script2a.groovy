@@ -38,7 +38,7 @@ class person{
     // def age = 20
     //def storage[]
     def propertyMissing(String name, value) { println("the missingProperty name is $name \r\n value is $value\r\n") }
-    def propertyMissing(String name) {  println("the missingProperty name is $name \r\n") }
+    //def propertyMissing(String name) {  println("the missingProperty name is $name \r\n") }
     def methodMissing(String name, def args) {
         return "this methodMissing is $name"
     }
@@ -64,24 +64,25 @@ Binding propertyBinding = new Binding()
 propertyBinding.property = {
     id,Closure c ->
         //def person =new person()
-        propertyBinding.ccc=id
+       // if(id =="show volumes")
+        //propertyBinding.ccc=id
         c.delegate=person
         c.call()
         //  System.out.println()
 }
-propertyBinding.protocol = {
+/*propertyBinding.protocol = {
     id,Closure c ->
         //def person =new person()
 
         if(id =="Input")
           c={Input("cc")}
-        if(propertyBinding.ccc=="show disks")
+        if(propertyBinding.ccc=="show volumes")
             c={println"this is ccc"}
         c.delegate=test
         //c.setResolveStrategy(Closure.DELEGATE_FIRST)
         println"c owner is"+c.owner
          c.call()
         //  System.out.println()
-}
+}*/
 shell = new GroovyShell(propertyBinding)
 shell.evaluate(new File('Script1a.groovy'))

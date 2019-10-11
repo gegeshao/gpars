@@ -13,19 +13,21 @@ class test3 {
 
    public  static void main(String[] args){
 
-         def  Closure[] defs = [{sleep 1000 ;"" },{sleep 1000 ;"2"},{sleep 1000 ;""}];
+         def  Closure[] defs = [{sleep 2000*2 ;"33";""},{sleep 1000 ;"2"},{sleep 1000 ;""}]
 
+         def Closure[] defs2 = [{sleep 1000 ;"22"},{}]
             final Dataflows dflow = new Dataflows()
             final DataflowVariable variable = new DataflowVariable()
              final DataflowVariable variable2 = new DataflowVariable()
             final DataflowVariable result = new DataflowVariable()
             final LazyDataflowVariable variable1 = new LazyDataflowVariable({sleep 1000 ;"this is variable1" })
             def ChainedDataflowVariablenew cdata= new ChainedDataflowVariablenew(defs)
+            def ChainedDataflowVariablenew cdata2 = new ChainedDataflowVariablenew(defs2)
 
 
-            variable >>{sleep 5000 ;println "$it"}
-            variable.whenBound {sleep 4000 ;println "3" }
-             variable <<2
+            //variable >>{sleep 5000 ;println "$it"}
+           // variable.whenBound {sleep 4000 ;println "3" }
+            // variable <<2
             //assert 1 == result.val
      /*  def a = new DataflowVariable()
        a >> {println "The variable has just been bound to $it"}
@@ -33,12 +35,13 @@ class test3 {
        a.whenBound{println "Just to confirm that the variable has been really set to $it"}*/
 
 
-           variable2.whenBound(Dataflow.DATA_FLOW_GROUP) {-> result << 1}
-           variable2 << 4
-           println("$result")
+          // variable2.whenBound(Dataflow.DATA_FLOW_GROUP) {-> result << 1}
+           //variable2 << 4
+           //println("$result")
 
             Promise p =cdata
-            Promise p2 =variable1
+            Promise p2 =cdata2
+            //Promise p2 =variable1
             /*long t =System.currentTimeMillis()
             System.out.println("start time is"+t)
             System.out.println("result = "+cdata.val)
@@ -50,6 +53,7 @@ class test3 {
 
              p.then(succeed,failed)
              p2.then(succeed,failed)
+            // p2.then(succeed,failed)
              //p2.then(succeed,failed)
              while(1){}
 

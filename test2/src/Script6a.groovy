@@ -3,12 +3,12 @@
  */
 class Foo {
     def storage = [:]
-    def propertyMissing(String name, value) { storage[name] = value }// like a setter
+   // def propertyMissing(String name, value) { storage[name] = value }// like a setter
     def propertyMissing(String name) { storage[name] }  //like a getter
 }
 
 def f = new Foo()
-f.foo = "bar" // set property
+//f.foo = "bar" // set property
 
-//assert f.foo == "bar"
+//assertEquals "boo", f.boo
 System.out.println(f.foo) //get property
